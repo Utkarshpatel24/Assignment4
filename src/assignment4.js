@@ -139,3 +139,4 @@ const wordBlanks = myNoun+"+"+myAdjective+"+"+myVerb+"+"+myAdverb;
 const myArray = ["Utkarsh",24]; //Store Multiple Values in one Variable using JavaScript Arrays
 
 
+const myArray = [["utkarsh",24]]; //Nest one Array within Another Array
