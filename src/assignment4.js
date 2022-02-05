@@ -46,4 +46,9 @@ const quotient = 66 / 33;  //Divide One Number by Another with JavaScript
 let myVar = 87; //Increment a Number with JavaScript
 myVar++;
 
+let myVar = 11;  //Decrement a Number with JavaScript
+myVar--;
+
+
+
 
