@@ -238,3 +238,16 @@ myOutfit();
   
   
   console.log('outside myLocalScope', myVar);
+
+
+
+let sum = 0;   //Understanding Undefined Value returned from a Function
+function addFive(){
+  sum+=5;
+  return;
+}
+function addThree() {
+  sum = sum + 3;
+}
+addThree();
+addFive();
