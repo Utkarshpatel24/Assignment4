@@ -313,3 +313,14 @@ function testStrict(val) { //Comparison with the Strict Equality Operator
   
   testStrict(10);
   testStrict(7);
+
+
+function compareEquality(a, b) { //Practice comparing different values
+    if (a === b) { 
+      return "Equal";
+    }
+    return "Not Equal";
+  }
+  
+  compareEquality(10, "10");
+  compareEquality("20",20);
