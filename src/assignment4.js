@@ -295,7 +295,21 @@ function testEqual(val) { //Comparison with the Equality Operator
       return "Equal";
     }
     return "Not Equal";
+
   }
   
   testEqual(10);
   testEqual(12);
+
+
+
+function testStrict(val) { //Comparison with the Strict Equality Operator
+
+    if (val===7) { 
+      return "Equal";
+    }
+    return "Not Equal";
+  }
+  
+  testStrict(10);
+  testStrict(7);
