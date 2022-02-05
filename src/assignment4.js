@@ -156,3 +156,7 @@ const myArray = [ //Access Multi-Dimensional Arrays With Indexes
   ];
   
   const myData = myArray[2][1];
+
+
+  const myArray = [["John", 23], ["cat", 2]]; //Manipulate Arrays With push()
+myArray.push(["dog",3]);
