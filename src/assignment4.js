@@ -88,6 +88,8 @@ a /= 12;
 b /= 4;
 c /= 11;
 
+const myStr = "I am a \"double quoted\" string inside \"double quotes\"."; //Escaping Literal Quotes in Strings
+
 
 
 
