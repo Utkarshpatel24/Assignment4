@@ -143,3 +143,9 @@ const myArray = [["utkarsh",24]]; //Nest one Array within Another Array
 
 const myArray = [50, 60, 70]; //Access Array Data with Indexes
 var myData=myArray[0];
+
+
+const myArray = [18, 64, 99]; //Modify Array Data With Indexes
+myArray[0]=45;
+
+
