@@ -176,3 +176,9 @@ myArray.unshift(["Paul",35]);
 
 
 const myList = [["jeans", 345],["trousers",43],["Tshirt",535],["shirt",434],["lowers",4534]]; //Shopping List
+
+
+function reusableFunction(){  //Write Reusable JavaScript with Functions
+    console.log("Hi World");
+  }
+  reusableFunction();
