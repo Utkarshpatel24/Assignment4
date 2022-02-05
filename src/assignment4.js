@@ -288,3 +288,14 @@ function welcomeToBooleans() { //Understanding Boolean Values
   }
   trueOrFalse(true);
   trueOrFalse(false);
+
+
+function testEqual(val) { //Comparison with the Equality Operator
+    if (val==12) { 
+      return "Equal";
+    }
+    return "Not Equal";
+  }
+  
+  testEqual(10);
+  testEqual(12);
