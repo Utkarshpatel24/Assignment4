@@ -361,6 +361,20 @@ function testStrictNotEqual(val) { //Comparison with the Strict Inequality Opera
     if (val>10) {  
       return "Over 10";
     }
+
+    function testGreaterOrEqual(val) {   //Comparison with the Greater Than Or Equal To Operator
+        if (val>=20) {  
+          return "20 or Over";
+        }
+      
+        if (val>=10) { 
+          return "10 or Over";
+        }
+      
+        return "Less than 10";
+      }
+      
+      testGreaterOrEqual(10);
   
     return "10 or Under";
   }
