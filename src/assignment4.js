@@ -182,3 +182,9 @@ function reusableFunction(){  //Write Reusable JavaScript with Functions
     console.log("Hi World");
   }
   reusableFunction();
+
+  function functionWithArgs(x,y){ //Passing Values to Functions with Arguments
+    console.log(x+y);
+    }
+    functionWithArgs(1,2);
+    functionWithArgs(7,9);
