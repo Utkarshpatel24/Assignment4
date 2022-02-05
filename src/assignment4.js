@@ -260,3 +260,16 @@ function processArg(num) {
   return (num + 3) / 5;
 }
 processed=processArg(7);
+
+
+function nextInLine(arr, item) {  //Stand in Line
+
+    arr.push(item);
+  item=arr.shift();
+  
+  return item;
+  }
+const testArr = [1, 2, 3, 4, 5];
+console.log("Before: " + JSON.stringify(testArr));
+console.log(nextInLine(testArr, 6));
+console.log("After: " + JSON.stringify(testArr));
