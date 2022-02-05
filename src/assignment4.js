@@ -51,6 +51,8 @@ myVar--;
 
 const myDecimal = 5.7; //Create Decimal Numbers with JavaScript
 
+const product = 5.0 * 1.0; //Multiply Two Decimals with JavaScript
+
 
 
 
