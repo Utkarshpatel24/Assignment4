@@ -35,5 +35,7 @@ let fact = "is cool!";
 fact = "is awesome!";
 console.log(FCC, fact); 
 
+const sum = 10 + 10;  //Add Two Numbers with JavaScript
+
 
 
