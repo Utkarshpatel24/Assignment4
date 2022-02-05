@@ -329,6 +329,7 @@ function compareEquality(a, b) { //Practice comparing different values
 function testNotEqual(val) {  //Comparison with the Inequality Operator
     if (val!=99) { 
       return "Not Equal";
+
     }
     return "Equal";
   }
@@ -338,3 +339,16 @@ function testNotEqual(val) {  //Comparison with the Inequality Operator
   testNotEqual(12);
   testNotEqual("12");
   testNotEqual("bob");
+
+
+function testStrictNotEqual(val) { //Comparison with the Strict Inequality Operator
+    if (val!==17) { 
+      return "Not Equal";
+    }
+    return "Equal";
+  }
+  
+  testStrictNotEqual(17);
+  testStrictNotEqual("17");
+  testStrictNotEqual(12);
+  testStrictNotEqual("bob");
