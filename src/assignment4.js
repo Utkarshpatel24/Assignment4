@@ -216,4 +216,13 @@ function fun2() {
   console.log(output);
 }
 
+function myLocalScope() {  //Local Scope and Functions
 
+    let myVar;
+  
+    console.log('inside myLocalScope', myVar);
+  }
+  myLocalScope();
+  
+  
+  console.log('outside myLocalScope', myVar);
