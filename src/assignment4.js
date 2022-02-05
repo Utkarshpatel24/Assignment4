@@ -58,6 +58,16 @@ const quotient = 4.4 / 2.0; //Divide One Decimal by Another with JavaScript
 const remainder = 8%3;  //Finding a Remainder in JavaScript
 
 
+let a = 3;  //Compound Assignment With Augmented Addition
+let a = 3;  
+let b = 17;
+let c = 12;
+a +=12;
+b += 9 ;
+c += 7;
+
+
+
 
 
 
