@@ -118,6 +118,10 @@ let myStr = "Jello World"; //Understand String Immutability
 myStr = "Hello World.";
 
 
+const lastName = "Lovelace"; //Use Bracket Notation to Find the Nth Character in a String
+const thirdLetterOfLastName = lastName[2]; 
+
+
 
 
 
