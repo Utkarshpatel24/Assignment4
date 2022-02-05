@@ -106,6 +106,10 @@ const someAdjective = "Hello"; //Appending Variables to Strings
 let myStr = "Learning to code is ";
 myStr +=someAdjective;
 
+let lastNameLength = 0;//Find the Length of a String
+const lastName = "Lovelace";
+lastNameLength = lastName.length;
+
 
 
 
