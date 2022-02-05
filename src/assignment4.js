@@ -66,6 +66,14 @@ a +=12;
 b += 9 ;
 c += 7;
 
+let a = 11; //Compound Assignment With Augmented Subtraction
+let b = 9;
+let c = 3;
+a -=  6;
+b -= 15;
+c -=  1;
+
+
 
 
 
