@@ -324,3 +324,17 @@ function compareEquality(a, b) { //Practice comparing different values
   
   compareEquality(10, "10");
   compareEquality("20",20);
+
+
+function testNotEqual(val) {  //Comparison with the Inequality Operator
+    if (val!=99) { 
+      return "Not Equal";
+    }
+    return "Equal";
+  }
+  
+  testNotEqual(99);
+  testNotEqual("99");
+  testNotEqual(12);
+  testNotEqual("12");
+  testNotEqual("bob");
