@@ -188,3 +188,12 @@ function reusableFunction(){  //Write Reusable JavaScript with Functions
     }
     functionWithArgs(1,2);
     functionWithArgs(7,9);
+
+    function timesFive(x){ //Return a Value from a Function with Return
+        return x*5;
+      }
+      timesFive(5);
+      timesFive(2);
+      timesFive(0);
+
+
