@@ -26,3 +26,7 @@ studlyCapVar = 10;
 properCamelCase = "A String";
 titleCaseOver = 9000;
 
+let catName = "Oliver";  //Explore Differences Between the var and let Keywords
+let catSound = "Meow!";
+
+
