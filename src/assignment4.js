@@ -114,6 +114,9 @@ let firstLetterOfLastName = ""; //Use Bracket Notation to Find the First Charact
 const lastName = "Lovelace";
 firstLetterOfLastName = lastName[0]; 
 
+let myStr = "Jello World"; //Understand String Immutability
+myStr = "Hello World.";
+
 
 
 
