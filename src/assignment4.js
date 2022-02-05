@@ -148,4 +148,11 @@ var myData=myArray[0];
 const myArray = [18, 64, 99]; //Modify Array Data With Indexes
 myArray[0]=45;
 
-
+const myArray = [ //Access Multi-Dimensional Arrays With Indexes
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9],
+    [[10, 11, 12], 13, 14],
+  ];
+  
+  const myData = myArray[2][1];
