@@ -223,6 +223,18 @@ function myLocalScope() {  //Local Scope and Functions
     console.log('inside myLocalScope', myVar);
   }
   myLocalScope();
+
+
+const outerWear = "T-Shirt";  //Global vs. Local Scope in Functions
+
+function myOutfit() {
+  
+let outerWear="sweater";
+ 
+  return outerWear;
+}
+
+myOutfit();
   
   
   console.log('outside myLocalScope', myVar);
