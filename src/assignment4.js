@@ -136,5 +136,6 @@ const myAdverb = "quickly"; //Word Blanks
 const wordBlanks = myNoun+"+"+myAdjective+"+"+myVerb+"+"+myAdverb; 
 
 
+const myArray = ["Utkarsh",24]; //Store Multiple Values in one Variable using JavaScript Arrays
 
 
